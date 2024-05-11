@@ -1,0 +1,96 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\flaky\\OneDrive\\Masa\u00FCst\u00FC\\CSPractice\\Menu\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{79C94EE6-8410-4891-8BBF-CAEA88752B6F}|Menu\\Menu.csproj|c:\\users\\flaky\\onedrive\\masa\u00FCst\u00FC\\cspractice\\menu\\menu\\data\\menucontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79C94EE6-8410-4891-8BBF-CAEA88752B6F}|Menu\\Menu.csproj|solutionrelative:menu\\data\\menucontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79C94EE6-8410-4891-8BBF-CAEA88752B6F}|Menu\\Menu.csproj|c:\\users\\flaky\\onedrive\\masa\u00FCst\u00FC\\cspractice\\menu\\menu\\models\\ingredient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79C94EE6-8410-4891-8BBF-CAEA88752B6F}|Menu\\Menu.csproj|solutionrelative:menu\\models\\ingredient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79C94EE6-8410-4891-8BBF-CAEA88752B6F}|Menu\\Menu.csproj|c:\\users\\flaky\\onedrive\\masa\u00FCst\u00FC\\cspractice\\menu\\menu\\models\\dish.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79C94EE6-8410-4891-8BBF-CAEA88752B6F}|Menu\\Menu.csproj|solutionrelative:menu\\models\\dish.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79C94EE6-8410-4891-8BBF-CAEA88752B6F}|Menu\\Menu.csproj|c:\\users\\flaky\\onedrive\\masa\u00FCst\u00FC\\cspractice\\menu\\menu\\models\\dishingredient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79C94EE6-8410-4891-8BBF-CAEA88752B6F}|Menu\\Menu.csproj|solutionrelative:menu\\models\\dishingredient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MenuContext.cs",
+              "DocumentMoniker": "C:\\Users\\flaky\\OneDrive\\Masa\u00FCst\u00FC\\CSPractice\\Menu\\Menu\\Data\\MenuContext.cs",
+              "RelativeDocumentMoniker": "Menu\\Data\\MenuContext.cs",
+              "ToolTip": "C:\\Users\\flaky\\OneDrive\\Masa\u00FCst\u00FC\\CSPractice\\Menu\\Menu\\Data\\MenuContext.cs",
+              "RelativeToolTip": "Menu\\Data\\MenuContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADAAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T13:12:21.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DishIngredient.cs",
+              "DocumentMoniker": "C:\\Users\\flaky\\OneDrive\\Masa\u00FCst\u00FC\\CSPractice\\Menu\\Menu\\Models\\DishIngredient.cs",
+              "RelativeDocumentMoniker": "Menu\\Models\\DishIngredient.cs",
+              "ToolTip": "C:\\Users\\flaky\\OneDrive\\Masa\u00FCst\u00FC\\CSPractice\\Menu\\Menu\\Models\\DishIngredient.cs",
+              "RelativeToolTip": "Menu\\Models\\DishIngredient.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T13:09:10.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Ingredient.cs",
+              "DocumentMoniker": "C:\\Users\\flaky\\OneDrive\\Masa\u00FCst\u00FC\\CSPractice\\Menu\\Menu\\Models\\Ingredient.cs",
+              "RelativeDocumentMoniker": "Menu\\Models\\Ingredient.cs",
+              "ToolTip": "C:\\Users\\flaky\\OneDrive\\Masa\u00FCst\u00FC\\CSPractice\\Menu\\Menu\\Models\\Ingredient.cs",
+              "RelativeToolTip": "Menu\\Models\\Ingredient.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T13:07:27.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Dish.cs",
+              "DocumentMoniker": "C:\\Users\\flaky\\OneDrive\\Masa\u00FCst\u00FC\\CSPractice\\Menu\\Menu\\Models\\Dish.cs",
+              "RelativeDocumentMoniker": "Menu\\Models\\Dish.cs",
+              "ToolTip": "C:\\Users\\flaky\\OneDrive\\Masa\u00FCst\u00FC\\CSPractice\\Menu\\Menu\\Models\\Dish.cs",
+              "RelativeToolTip": "Menu\\Models\\Dish.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T13:06:24.245Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
