@@ -1,0 +1,21 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@model OrnekUygulama.Models.Product
+
+<form asp-action="CreateProduct" asp-controller="Product" method="post">
+
+    <input type="text" asp-for="ProductName" placeholder="Product Name" />
+    <br />
+
+    <input type="type" asp-for="ProductQuantity" placeholder="Product Quantity" /> 
+    <br />
+
+    <input type="email" asp-for="DeveloperEmail" placeholder="Developer Email" /> 
+    <br />
+    
+    <button>Gönder</button>
+</form>
+
+<div asp-validation-summary="All">
+
+</div>

@@ -1,0 +1,61 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\flaky\\OneDrive\\Masa\u00FCst\u00FC\\CSPractice\\AToZAspNetCore\\OrnekUygulama\\OrnekUygulama\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{54032FEF-BE20-4A24-9016-CFF20F139474}|OrnekUygulama.csproj|c:\\users\\flaky\\onedrive\\masa\u00FCst\u00FC\\cspractice\\atozaspnetcore\\ornekuygulama\\ornekuygulama\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54032FEF-BE20-4A24-9016-CFF20F139474}|OrnekUygulama.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54032FEF-BE20-4A24-9016-CFF20F139474}|OrnekUygulama.csproj|c:\\users\\flaky\\onedrive\\masa\u00FCst\u00FC\\cspractice\\atozaspnetcore\\ornekuygulama\\ornekuygulama\\views\\product\\createproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{54032FEF-BE20-4A24-9016-CFF20F139474}|OrnekUygulama.csproj|solutionrelative:views\\product\\createproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CreateProduct.cshtml",
+              "DocumentMoniker": "C:\\Users\\flaky\\OneDrive\\Masa\u00FCst\u00FC\\CSPractice\\AToZAspNetCore\\OrnekUygulama\\OrnekUygulama\\Views\\Product\\CreateProduct.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\CreateProduct.cshtml",
+              "ToolTip": "C:\\Users\\flaky\\OneDrive\\Masa\u00FCst\u00FC\\CSPractice\\AToZAspNetCore\\OrnekUygulama\\OrnekUygulama\\Views\\Product\\CreateProduct.cshtml",
+              "RelativeToolTip": "Views\\Product\\CreateProduct.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-15T14:00:08.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\flaky\\OneDrive\\Masa\u00FCst\u00FC\\CSPractice\\AToZAspNetCore\\OrnekUygulama\\OrnekUygulama\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\flaky\\OneDrive\\Masa\u00FCst\u00FC\\CSPractice\\AToZAspNetCore\\OrnekUygulama\\OrnekUygulama\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADsCAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T13:59:52.711Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

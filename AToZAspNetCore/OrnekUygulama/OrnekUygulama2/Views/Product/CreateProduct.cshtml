@@ -1,0 +1,9 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@model OrnekUygulama2.Models.Product
+
+<form asp-action="VeriAl" asp-controller="Product" method="post">
+    <input asp-for="Name" type="text" name="Name" /> <br />
+    <input asp-for="Quantity" type="number" name="Quantity" /> <br />
+    <button>Gönder</button>
+</form>
