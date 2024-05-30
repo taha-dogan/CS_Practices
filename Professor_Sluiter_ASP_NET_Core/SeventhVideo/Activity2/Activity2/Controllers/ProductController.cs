@@ -20,6 +20,11 @@ namespace Activity2.Controllers
             return View("Index", productsList);
         }
 
+        public IActionResult SearchForm()
+        {
+            return View();
+        }
+
         public IActionResult Message()
         {
             return View();
