@@ -1,0 +1,79 @@
+﻿@model AppointmentMaker.Models.ViewModel.CustomerAppointmentViewModel
+
+<h4>Create Appointment</h4>
+<hr />
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="Details" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <h5>Appointment Details</h5>
+            <div class="form-group">
+                <label asp-for="appointment.PatientName" class="control-label"></label>
+                <input asp-for="appointment.PatientName" class="form-control" />
+                <span asp-validation-for="appointment.PatientName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="appointment.AppointmentDate" class="control-label"></label>
+                <input asp-for="appointment.AppointmentDate" class="form-control" />
+                <span asp-validation-for="appointment.AppointmentDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="appointment.PatientNetWorth" class="control-label"></label>
+                <input asp-for="appointment.PatientNetWorth" class="form-control" />
+                <span asp-validation-for="appointment.PatientNetWorth" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="appointment.DoctorName" class="control-label"></label>
+                <input asp-for="appointment.DoctorName" class="form-control" />
+                <span asp-validation-for="appointment.DoctorName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="appointment.PainLevel" class="control-label"></label>
+                <input asp-for="appointment.PainLevel" class="form-control" />
+                <span asp-validation-for="appointment.PainLevel" class="text-danger"></span>
+            </div>
+
+            <h5>Customer Details</h5>
+            <div class="form-group">
+                <label asp-for="customer.CityName" class="control-label"></label>
+                <input asp-for="customer.CityName" class="form-control" />
+                <span asp-validation-for="customer.CityName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="customer.StreetName" class="control-label"></label>
+                <input asp-for="customer.StreetName" class="form-control" />
+                <span asp-validation-for="customer.StreetName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="customer.ZipCode" class="control-label"></label>
+                <input asp-for="customer.ZipCode" class="form-control" />
+                <span asp-validation-for="customer.ZipCode" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="customer.PhoneNumber" class="control-label"></label>
+                <input asp-for="customer.PhoneNumber" class="form-control" />
+                <span asp-validation-for="customer.PhoneNumber" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="customer.EmailAddress" class="control-label"></label>
+                <input asp-for="customer.EmailAddress" class="form-control" />
+                <span asp-validation-for="customer.EmailAddress" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

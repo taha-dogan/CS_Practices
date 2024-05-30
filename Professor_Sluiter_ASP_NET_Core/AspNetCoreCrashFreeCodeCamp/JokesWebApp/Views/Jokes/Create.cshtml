@@ -1,0 +1,38 @@
+﻿@model JokesWebApp.Models.Joke
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <h1 class="text-center">@ViewData["Title"]</h1>
+            <h4 class="text-center">Joke</h4>
+            <hr />
+            <form asp-action="Create">
+                <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+                <div class="form-group">
+                    <label asp-for="JokeQuestion" class="control-label"></label>
+                    <input asp-for="JokeQuestion" class="form-control" />
+                    <span asp-validation-for="JokeQuestion" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="JokeAnswer" class="control-label"></label>
+                    <input asp-for="JokeAnswer" class="form-control" />
+                    <span asp-validation-for="JokeAnswer" class="text-danger"></span>
+                </div>
+                <div class="form-group text-center">
+                    <input type="submit" value="Create" class="btn btn-primary" />
+                    <a asp-action="Index" class="btn btn-secondary ml-2">Back to List</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

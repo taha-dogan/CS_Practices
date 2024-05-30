@@ -1,0 +1,59 @@
+﻿@model IEnumerable<AppointmentMaker.Models.ViewModel.CustomerAppointmentViewModel>
+
+<div class="container mt-4">
+    <h2 class="mb-3">Appointment List</h2>
+    <div class="d-flex justify-content-end mb-3">
+        <a asp-action="Create" class="btn btn-primary">Create New Appointment</a>
+    </div>
+    <div class="table-responsive">
+        <table class="table table-striped table-bordered table-hover">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Patient Name</th>
+                    <th>Appointment Date</th>
+                    <th>Patient Net Worth</th>
+                    <th>Doctor Name</th>
+                    <th>Pain Level</th>
+                    <th>City Name</th>
+                    <th>Street Name</th>
+                    <th>Zip Code</th>
+                    <th>Phone Number</th>
+                    <th>Email Address</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    if (item != null)
+                    {
+                        <tr>
+                            <td>@Html.DisplayFor(modelItem => item.appointment.PatientName)</td>
+                            <td>@Html.DisplayFor(modelItem => item.appointment.AppointmentDate)</td>
+                            <td>@Html.DisplayFor(modelItem => item.appointment.PatientNetWorth)</td>
+                            <td>@Html.DisplayFor(modelItem => item.appointment.DoctorName)</td>
+                            <td>@Html.DisplayFor(modelItem => item.appointment.PainLevel)</td>
+                            <td>@Html.DisplayFor(modelItem => item.customer.CityName)</td>
+                            <td>@Html.DisplayFor(modelItem => item.customer.StreetName)</td>
+                            <td>@Html.DisplayFor(modelItem => item.customer.ZipCode)</td>
+                            <td>@Html.DisplayFor(modelItem => item.customer.PhoneNumber)</td>
+                            <td>@Html.DisplayFor(modelItem => item.customer.EmailAddress)</td>
+                            <td class="text-center">
+                                <a asp-action="Edit" asp-route-id="@item.appointment.PatientName" class="btn btn-sm btn-warning">Edit</a>
+                                <a asp-action="Details" asp-route-patientName="@item.appointment.PatientName" class="btn btn-sm btn-info">Details</a>
+                                <a asp-action="Delete" asp-route-id="@item.appointment.PatientName" class="btn btn-sm btn-danger">Delete</a>
+                            </td>
+                        </tr>
+                    }
+                }
+
+            </tbody>
+        </table>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
